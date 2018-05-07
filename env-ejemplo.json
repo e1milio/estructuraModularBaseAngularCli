@@ -1,0 +1,9 @@
+{
+    "env" : { 
+
+        "app_name" : "APP_NAME",
+        "copyright" : "Empresa"
+
+    }
+    
+}
