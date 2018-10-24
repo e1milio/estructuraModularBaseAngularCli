@@ -1,4 +1,11 @@
-  <div style="border:1px;border-style: solid; padding:10px;">
-      <p>login works!</p>
-      <a [routerLink]="['/']">Ingresar</a>
-  </div>
+<div style="border:1px;border-style: solid; padding:10px;">
+
+    <p>login works!</p>
+
+    <form #form="ngForm" name="form" (ngSubmit)="login()">
+
+        <button type="submit">Ingresar</button>
+          
+    </form>
+
+</div>
