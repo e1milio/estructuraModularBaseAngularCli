@@ -2,9 +2,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
+/* Routes */
 import { LoginRoutingModule } from './login-routing.module';
 
-import { LoginComponent } from './login.component';
+/* Components */
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [

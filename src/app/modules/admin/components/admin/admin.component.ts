@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-layout',
-  templateUrl: './layout.component.html',
+  selector: 'app-admin',
+  templateUrl: './admin.component.html',
   styles: []
 })
-export class LayoutComponent implements OnInit {
+export class AdminComponent implements OnInit {
 
   constructor() { }
 
