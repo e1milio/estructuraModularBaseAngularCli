@@ -4,8 +4,8 @@ Proyecto minimalista y escalable.
 
 ## Requisitos
 
-- Nodejs 10.16.0
-- Angular CLI 8.0.4
+- Nodejs 12.13.1
+- Angular CLI 8.3.20
 
 ## Instalación
 
