@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { MainComponent } from './components/main/main.component';
-import { InicioComponent } from './components/pages/inicio/inicio.component';
-import { EjemploComponent } from './components/pages/ejemplo/ejemplo.component';
+import { MainComponent } from './main.component';
+import { InicioComponent } from './pages/inicio/inicio.component';
+import { EjemploComponent } from './pages/ejemplo/ejemplo.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent, children:[
