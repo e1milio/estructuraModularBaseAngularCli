@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { LoginRoutingModule } from './login-routing.module';
 
 /* Components */
-import { LoginComponent } from './components/login/login.component';
+import { LoginComponent } from './login.component';
 
 @NgModule({
   declarations: [
