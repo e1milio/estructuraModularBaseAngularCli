@@ -1,8 +1,8 @@
 {
     "env" : { 
 
-        "app_name" : "APP_NAME",
-        "copyright" : "Empresa"
+        "APP_NAME" : "APP_NAME",
+        "COPYRIGHT" : "Empresa"
 
     }
     

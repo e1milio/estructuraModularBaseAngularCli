@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit(){
 
-    console.log(this._envService.env.app_name + " is running");
+    console.log(this._envService.env.APP_NAME + " is running");
 
   }
 
