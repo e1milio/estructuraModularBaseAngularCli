@@ -3,9 +3,9 @@ import { Routes, RouterModule } from '@angular/router';
 import { AuthGuard } from './guards/auth.guard';
 
 const routes: Routes = [
-  { path: '', canActivate: [AuthGuard], loadChildren: './pages/main/main.module#MainModule' },
-  { path: 'admin', canActivate: [AuthGuard], loadChildren: './pages/admin/admin.module#AdminModule' },
-  { path: 'login', loadChildren: './pages/login/login.module#LoginModule' },
+  { path: '', canActivate: [AuthGuard], loadChildren: () => import('./pages/main/main.module').then(m => m.MainModule) },
+  { path: 'admin', canActivate: [AuthGuard], loadChildren: () => import('./pages/admin/admin.module').then(m => m.AdminModule) },
+  { path: 'login', loadChildren: () => import('./pages/login/login.module').then(m => m.LoginModule) },
   { path: '**', redirectTo: '', pathMatch: 'full'},
 ];
 

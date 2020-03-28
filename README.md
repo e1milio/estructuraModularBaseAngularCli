@@ -5,12 +5,12 @@ Proyecto minimalista y escalable.
 ## Requisitos
 
 - Nodejs 12.13.1
-- Angular CLI 8.3.20
+- Angular CLI 9.1.0
 
 ## Instalación
 
 - $ npm install
-- $ mv env-ejemplo.json env.json
+- $ cp env-ejemplo.json env.json
 
 ## Run
 - $ ng serve
